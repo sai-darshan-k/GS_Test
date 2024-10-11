@@ -103,9 +103,37 @@ def index():
 @app.route('/scrape', methods=['GET'])
 def scrape():
     profile_links = [
-        "https://scholar.google.com/citations?user=fzs9d1IAAAAJ&hl=en&oi=en",
-        "https://scholar.google.com/citations?user=-ZYIiGAAAAAJ&hl=en",
-        # Add additional profile links here (keep this short to avoid memory overload)
+        "https://scholar.google.com/citations?user=fzs9d1IAAAAJ&hl=en",
+     "https://scholar.google.com/citations?user=-ZYIiGAAAAAJ&hl=en",
+     "https://scholar.google.com/citations?hl=en&user=5Dl7tEYAAAAJ",
+     "https://scholar.google.co.in/citations?user=px8Z3Q4AAAAJ&hl=en",
+     "https://scholar.google.co.in/citations?user=jTCHV4kAAAAJ&hl=en",
+     "https://scholar.google.co.in/citations?user=_bbxYHsAAAAJ&hl=en&authuser=1",
+     "https://scholar.google.com/citations?user=bn6WQUoAAAAJ",
+     "https://scholar.google.com/citations?hl=en&user=ThELNO0AAAAJ",
+     "https://scholar.google.co.in/citations?user=ryhyx4IAAAAJ&hl=en",
+     "https://scholar.google.com/citations?user=prcv4fAAAAAJ&hl=en&oi=ao",
+     "https://scholar.google.com/citations?user=eu_o414AAAAJ&hl=en",
+     "https://scholar.google.com/citations?hl=en&user=uZXv4XIAAAAJ",
+     "https://scholar.google.com/citations?user=Cf2I4OoAAAAJ&hl=en",
+     "https://scholar.google.com/citations?hl=en&user=Li0r8uMAAAAJ",
+     "https://scholar.google.co.in/citations?user=FlLJ1SYAAAAJ&hl=en",
+     "https://scholar.google.com/citations?user=vjZ4yC0AAAAJ&hl=en&authuser=1",
+     "https://scholar.google.co.in/citations?user=AIdTGncAAAAJ&hl=en",
+     "https://scholar.google.com/citations?user=XPjU9AIAAAAJ&hl=en&authuser=1",
+     "https://scholar.google.co.in/citations?hl=en&user=Z34wmvMAAAAJ",
+     "https://scholar.google.com/citations?user=vGJxAzEAAAAJ&hl=en",
+     "https://scholar.google.com/citations?user=hlTGb-0AAAAJ&hl=en",
+     "https://scholar.google.co.in/citations?user=hC5psv4AAAAJ",
+     "https://scholar.google.com/citations?user=cE0jxPcAAAAJ&hl=en",
+     "https://scholar.google.com/citations?user=GYjXshwAAAAJ",
+     "https://scholar.google.com/citations?hl=en&user=HKK_hlsAAAAJ",
+     "https://scholar.google.co.in/citations?user=qIFXtnYAAAAJ&hl=en",
+     "https://scholar.google.com/citations?hl=en&user=FmtW9kIAAAAJ",
+     "https://scholar.google.com/citations?user=_89sYcIAAAAJ&hl=en&oi=ao",
+     "https://scholar.google.com/citations?user=qVkPhiAAAAAJ&hl=en",
+     "https://scholar.google.co.in/citations?user=Hj3_OtwAAAAJ&hl=en",
+     "https://scholar.google.co.in/citations?user=kNdafyoAAAAJ&hl=en",
     ]
     
     scraper = GoogleScholarScraper()
